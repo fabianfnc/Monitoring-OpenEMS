@@ -13,7 +13,7 @@ It was developed around the requirements of controlling, monitoring and integrat
 
 The OpenEMS 'Internet of Things' stack contains three main components:
 
- * **OpenEMS Edge** runs on-site and actually controls the devices
+ * **OpenEMS Edge** nudelsieb edge funktionen JAAAAAAAAAAAAAAAAAAAAAAAAA
  * **OpenEMS UI** is the generic user interface
  * **OpenEMS Backend** runs on a (cloud) server, connects the decentralized Edge systems and provides aggregation, monitoring and control via internet
 
