@@ -13,7 +13,7 @@ It was developed around the requirements of controlling, monitoring and integrat
 
 The OpenEMS 'Internet of Things' stack contains three main components:
 
- * **OpenEMS Edge** nudelsieb edge funktionen NEEEEEEEEEEEEEEIN
+ * **OpenEMS Edge** nudelsieb edge funktionen NEEEEEEEEEEEEEEIN oder doch?
  * **OpenEMS UI** generico generico, niemand steck sich hier den finger in po
  * **OpenEMS Backend** hello sagarrrrrrrrRrR
 
@@ -21,7 +21,7 @@ The OpenEMS 'Internet of Things' stack contains three main components:
 
 HARTE KERLE SIND WIR JAAAAAAAAAAAAAAAAAA
 
- * Fast, PLC-like control of battery inverters and other devices
+ * FSCHNEEELt, PLC-like control of battery inverters and other devices
  * Easily extendable due to the use of modern programming languages and modular architecture
  * Wide range of supported devices - (battery) inverters, meters, etc. - and protocols
  * Modern web-based real-time user interface
