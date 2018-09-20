@@ -3,9 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> :: Open Energy Management System</title>
+    <title>Untitled :: Open Energy Management System</title>
     <link rel="canonical" href="https://docs.antora.org/openems/latest/introduction.html">
-    <meta name="keywords" content="AsciiDoc">
     <meta name="generator" content="Antora 1.1.0">
     <link rel="stylesheet" href="../../_/css/site.css">
 <link rel="stylesheet" href="../../_/css/vendor/docsearch.min.css">  </head>
@@ -13,7 +12,7 @@
 <header class="header">
   <nav class="navbar" color="#2d8fab">
     <div class="navbar-brand">
-      <a class="navbar-item">OpenEMS // Docs</a>
+      <a class="navbar-item" href="https://github.com/OpenEMS">OpenEMS // Docs</a>
     </div>
   </nav>
 </header><div class="main-wrapper">
@@ -132,20 +131,13 @@
   <div class="edit-this-page"><a href="https://github.com/OpenEMS/openems/edit/feature/Antora/doc/modules/ROOT/pages/introduction.adoc">Edit this Page</a></div>
 </div>
 <article class="doc">
-<h1><span class="image related right"><img src="_images/OpenEMS-Logo.png" alt="the Feneco - OpenEMS Logo" width="400"></span></h1>
-<div id="toc" class="toc">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#_openems_iot_stack">1. OpenEMS IoT stack</a></li>
-<li><a href="#_features">2. Features</a></li>
-<li><a href="#_open_source_philosophy">3. Open Source philosophy</a></li>
-<li><a href="#_license">4. License</a></li>
-<li><a href="#_development_guidelines">5. Development guidelines</a></li>
-<li><a href="#_migration_to_osgi">6. Migration to OSGi</a></li>
-<li><a href="#_system_architecture">7. System architecture</a></li>
-</ul>
+<div class="imageblock" style="text-align: left">
+<div class="content">
+<img src="_images/OpenEMS-Logo.png" alt="the Feneco - OpenEMS Logo" width="400">
 </div>
-<div id="preamble">
+</div>
+<div class="sect1">
+<h2 id="_open_energy_management_system"><a class="anchor" href="#_open_energy_management_system"></a>Open Energy Management System</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>OpenEMS is a modular platform for energy management applications.
@@ -154,7 +146,7 @@ It was developed around the requirements of controlling, monitoring and integrat
 </div>
 </div>
 <div class="sect1">
-<h2 id="_openems_iot_stack"><a class="anchor" href="#_openems_iot_stack"></a>1. OpenEMS IoT stack</h2>
+<h2 id="_openems_iot_stack"><a class="anchor" href="#_openems_iot_stack"></a>OpenEMS IoT stack</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The OpenEMS 'Internet of Things' stack contains three main components:</p>
@@ -175,7 +167,7 @@ It was developed around the requirements of controlling, monitoring and integrat
 </div>
 </div>
 <div class="sect1">
-<h2 id="_features"><a class="anchor" href="#_features"></a>2. Features</h2>
+<h2 id="_features"><a class="anchor" href="#_features"></a>Features</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The OpenEMS software architecture was designed to leverage some features that are required by a modern and flexible Energy Management System:</p>
@@ -196,22 +188,67 @@ It was developed around the requirements of controlling, monitoring and integrat
 </li>
 </ul>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_openems_ui_screenshots"><a class="anchor" href="#_openems_ui_screenshots"></a>OpenEMS UI Screenshots</h2>
+<div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<img src="_images/ui-screenshots.png" alt="Screenshots of OpenEMS UI">
+<img src="_images/ui-screenshots.png" alt="ui screenshots">
 </div>
-<div class="title">Figure 1. Screenshots of OpenEMS UI</div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="_images/ui-screenshots2.png" alt="Screenshots of OpenEMS UI">
+<img src="_images/ui-screenshots2.png" alt="ui screenshots2">
 </div>
-<div class="title">Figure 2. Screenshots of OpenEMS UI</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_open_source_philosophy"><a class="anchor" href="#_open_source_philosophy"></a>3. Open Source philosophy</h2>
+<h2 id="_system_architecture"><a class="anchor" href="#_system_architecture"></a>System architecture</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>OpenEMS is generally used in combination with external hardware and software components
+(the exception is a simulated development environment - see <a href="gettingstarted.html" class="page">Getting Started</a>)
+As a brief overview, this is how OpenEMS is used in production setups:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="_images/system-architecture.png" alt="OpenEMS system architecture">
+</div>
+<div class="title">Figure 1. OpenEMS system architecture</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_development_guidelines"><a class="anchor" href="#_development_guidelines"></a>Development guidelines</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Development follows the <a href="https://de.wikipedia.org/wiki/Agile_Softwareentwicklung">Agile Manifesto <span class="icon"><i class="fa fa-external-link"></i></span></a> and is driven by the <a href="https://de.wikipedia.org/wiki/Scrum">Scrum <span class="icon"><i class="fa fa-external-link"></i></span></a> methodology.
+The source code is available online at <a href="http://openems.io" class="bare">http://openems.io</a> and on <a href="https://github.com/OpenEMS/openems">GitHub <span class="icon"><i class="fa fa-github"></i></span></a>.
+New versions are released after every Scrum Sprint and <a href="https://github.com/OpenEMS/openems/releases">tagged <span class="icon"><i class="fa fa-github"></i></span></a> accordingly.
+Version numbers are built using the pattern <code>year.number of sprint</code>, e.g. version <code>2018.4</code> is the result of the fourth sprint in 2018.
+Git development follows the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">Gitflow Workflow</a>, so the <a href="https://github.com/OpenEMS/openems/tree/master/">master branch <span class="icon"><i class="fa fa-github"></i></span></a> always holds the stable release, while active development is happening on the <a href="https://github.com/OpenEMS/openems/tree/develop">develop branch <span class="icon"><i class="fa fa-github"></i></span></a> or in separate feature branches.</p>
+</div>
+<div class="paragraph">
+<p>For Edge and Backend Java development we recommend the <a href="https://www.eclipse.org/ide/">Eclipse IDE <span class="icon"><i class="fa fa-external-link"></i></span></a>.
+For the UI (TypeScript + Angular.io) we recommend <a href="https://code.visualstudio.com/">Visual Studio Code <span class="icon"><i class="fa fa-external-link"></i></span></a>.
+The documentation is generated using <a href="http://asciidoc.org">AsciiDoc <span class="icon"><i class="fa fa-external-link"></i></span></a>.
+For handling git we recommend <a href="https://www.sourcetreeapp.com/">Sourctree by Atlassian <span class="icon"><i class="fa fa-external-link"></i></span></a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_migration_to_osgi"><a class="anchor" href="#_migration_to_osgi"></a>Migration to OSGi</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Starting with version <a href="https://github.com/OpenEMS/openems/releases/tag/2018.7">2018.7 <span class="icon"><i class="fa fa-github"></i></span></a> OpenEMS Edge is getting migrated to <a href="https://en.wikipedia.org/wiki/OSGi">OSGi <span class="icon"><i class="fa fa-external-link"></i></span></a>, a platform to provide a completely modular and dynamic service oriented system. Certain parts of Edge are not yet migrated and for the time being only available in the deprecated <a href="https://github.com/OpenEMS/openems/tree/old_master">old_master branch <span class="icon"><i class="fa fa-github"></i></span></a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_open_source_philosophy"><a class="anchor" href="#_open_source_philosophy"></a>Open Source philosophy</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>OpenEMS development was started by <a href="https://www.fenecon.de">FENECON GmbH <span class="icon"><i class="fa fa-external-link"></i></span></a>, a German company specialized in manufacturing and project development of energy storage systems. It is the software stack behind <a href="https://fenecon.de/page/fems">FEMS - FENECON Energy Management System <span class="icon"><i class="fa fa-external-link"></i></span></a> and widely used in private, commercial and industrial applications.</p>
@@ -225,7 +262,7 @@ It was developed around the requirements of controlling, monitoring and integrat
 </div>
 </div>
 <div class="sect1">
-<h2 id="_license"><a class="anchor" href="#_license"></a>4. License</h2>
+<h2 id="_license"><a class="anchor" href="#_license"></a>License</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -257,48 +294,6 @@ redistribute it and/or modify it under the terms of the [Eclipse Public License 
 <div class="paragraph">
 <p>This product includes software developed at FENECON GmbH: you can
 redistribute it and/or modify it under the terms of the [GNU Affero General Public License version 3](LICENSE-AGPL-3.0).</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_development_guidelines"><a class="anchor" href="#_development_guidelines"></a>5. Development guidelines</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Development follows the <a href="https://de.wikipedia.org/wiki/Agile_Softwareentwicklung">Agile Manifesto <span class="icon"><i class="fa fa-external-link"></i></span></a> and is driven by the <a href="https://de.wikipedia.org/wiki/Scrum">Scrum <span class="icon"><i class="fa fa-external-link"></i></span></a> methodology.
-The source code is available online at <a href="http://openems.io" class="bare">http://openems.io</a> and on <a href="https://github.com/OpenEMS/openems">GitHub <span class="icon"><i class="fa fa-github"></i></span></a>.
-New versions are released after every Scrum Sprint and <a href="https://github.com/OpenEMS/openems/releases">tagged <span class="icon"><i class="fa fa-github"></i></span></a> accordingly.
-Version numbers are built using the pattern <code>year.number of sprint</code>, e.g. version <code>2018.4</code> is the result of the fourth sprint in 2018.
-Git development follows the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">Gitflow Workflow</a>, so the <a href="https://github.com/OpenEMS/openems/tree/master/">master branch <span class="icon"><i class="fa fa-github"></i></span></a> always holds the stable release, while active development is happening on the <a href="https://github.com/OpenEMS/openems/tree/develop">develop branch <span class="icon"><i class="fa fa-github"></i></span></a> or in separate feature branches.</p>
-</div>
-<div class="paragraph">
-<p>For Edge and Backend Java development we recommend the <a href="https://www.eclipse.org/ide/">Eclipse IDE <span class="icon"><i class="fa fa-external-link"></i></span></a>.
-For the UI (TypeScript + Angular.io) we recommend <a href="https://code.visualstudio.com/">Visual Studio Code <span class="icon"><i class="fa fa-external-link"></i></span></a>.
-The documentation is generated using <a href="http://asciidoc.org">AsciiDoc <span class="icon"><i class="fa fa-external-link"></i></span></a>.
-For handling git we recommend <a href="https://www.sourcetreeapp.com/">Sourctree by Atlassian <span class="icon"><i class="fa fa-external-link"></i></span></a>.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_migration_to_osgi"><a class="anchor" href="#_migration_to_osgi"></a>6. Migration to OSGi</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Starting with version <a href="https://github.com/OpenEMS/openems/releases/tag/2018.7">2018.7 <span class="icon"><i class="fa fa-github"></i></span></a> OpenEMS Edge is getting migrated to <a href="https://en.wikipedia.org/wiki/OSGi">OSGi <span class="icon"><i class="fa fa-external-link"></i></span></a>, a platform to provide a completely modular and dynamic service oriented system. Certain parts of Edge are not yet migrated and for the time being only available in the deprecated <a href="https://github.com/OpenEMS/openems/tree/old_master">old_master branch <span class="icon"><i class="fa fa-github"></i></span></a>.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_system_architecture"><a class="anchor" href="#_system_architecture"></a>7. System architecture</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>OpenEMS is generally used in combination with external hardware and software components
-(the exception is a simulated development environment - see <a href="gettingstarted.html" class="page">Getting Started</a>)
-As a brief overview, this is how OpenEMS is used in production setups:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="_images/system-architecture.png" alt="OpenEMS system architecture">
-</div>
-<div class="title">Figure 3. OpenEMS system architecture</div>
 </div>
 <div class="paragraph">
 <p>Stefan Feilmeier (c) 2018 FENECON GmbH

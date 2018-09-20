@@ -13,7 +13,7 @@
 <header class="header">
   <nav class="navbar" color="#2d8fab">
     <div class="navbar-brand">
-      <a class="navbar-item">OpenEMS // Docs</a>
+      <a class="navbar-item" href="https://github.com/OpenEMS">OpenEMS // Docs</a>
     </div>
   </nav>
 </header><div class="main-wrapper">
@@ -733,7 +733,7 @@ protected ModbusProtocol defineModbusProtocol(int unitId) {
 </div>
 </li>
 <li>
-<p>OpenEMS <a href="#_channel">[_channel]</a>s have a two-stage implementation. <em>Declaration</em> happens inside the Nature - for common Channels - and the Component - for custom Channels specific to the Device. <em>Definition</em> (i.e. instantiation of the Channel object) happens inside the Component.</p>
+<p>OpenEMS <a href="../coreconcepts.html" class="page">Channels</a> have a two-stage implementation. <em>Declaration</em> happens inside the Nature - for common Channels - and the Component - for custom Channels specific to the Device. <em>Definition</em> (i.e. instantiation of the Channel object) happens inside the Component.</p>
 <div class="paragraph">
 <p>For now we only used Channels defined by the Meter Nature, e.g. <a href="https://github.com/OpenEMS/openems/blob/develop/io.openems.edge.meter.api/src/io/openems/edge/meter/api/SymmetricMeter.java">SymmetricMeter.ChannelId.ACTIVE_POWER' <span class="icon"><i class="fa fa-code"></i></span></a>. It is still good practice to add a skeleton for custom Channels <strong>Declaration</strong> to the Component implementation. We therefor add the following <em>Channel Declaration</em> block inside the class:</p>
 </div>
