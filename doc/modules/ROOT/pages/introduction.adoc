@@ -19,7 +19,7 @@ The OpenEMS 'Internet of Things' stack contains three main components:
 
 == Features
 
-The OpenEMS software architecture was designed to leverage some features that are required by a modern and flexible Energy Management System:
+HARTE KERLE SIND WIR JAAAAAAAAAAAAAAAAAA
 
  * Fast, PLC-like control of battery inverters and other devices
  * Easily extendable due to the use of modern programming languages and modular architecture
