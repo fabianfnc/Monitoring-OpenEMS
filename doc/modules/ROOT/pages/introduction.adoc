@@ -21,7 +21,7 @@ The OpenEMS 'Internet of Things' stack contains three main components:
 
 HARTE KERLE SIND WIR JAAAAAAAAAAAAAAAAAA
 
- * Fast, PLC-like control of battery inverters and other devices
+ * FSCHNEEELt, PLC-like control of battery inverters and other devices
  * Easily extendable due to the use of modern programming languages and modular architecture
  * Wide range of supported devices - (battery) inverters, meters, etc. - and protocols
  * Modern web-based real-time user interface
