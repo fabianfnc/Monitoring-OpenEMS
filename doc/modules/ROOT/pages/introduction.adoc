@@ -13,7 +13,7 @@ It was developed around the requirements of controlling, monitoring and integrat
 
 The OpenEMS 'Internet of Things' stack contains three main components:
 
- * **OpenEMS Edge** nudelsieb edge funktionen NEEEEEEEEEEEEEEIN
+ * **OpenEMS Edge** nudelsieb edge funktionen NEEEEEEEEEEEEEEIN oder doch?
  * **OpenEMS UI** generico generico, niemand steck sich hier den finger in po
  * **OpenEMS Backend** hello sagarrrrrrrrRrR
 
